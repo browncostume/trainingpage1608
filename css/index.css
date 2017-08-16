@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+}
+p {
+    color: orange;
+}
+selected {
+    color:purple;
+}
+h2 ~ p {
+    color:yellow;
+}    
+header {
+    color:white;
+    }
+p:hover {
+    color: green;
+}
+
+p::before {
+    content: "<";
+    color: green;
+}
+
+p::after {
+    content: ">";
+    color: green;
+}
+
